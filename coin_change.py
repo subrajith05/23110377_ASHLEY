@@ -21,3 +21,7 @@ def ccp(n, target, coins):
 n, target = (int(num) for num in input("Enter n and target: ").split())
 coins = [int(num) for num in input("Enter coin values separated by space: ").split()]
 print("Min no. of coins require:",ccp(n, target, coins))
+
+#Sample input
+# 3 11
+# 1 5 6
